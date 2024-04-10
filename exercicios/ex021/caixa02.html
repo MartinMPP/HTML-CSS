@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body {
+      background-color: aqua;
+    }
+
+
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .foto {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: rgba(0, 0, 255, 0.616);
+      margin: auto;
+      border-radius: 10px;
+      padding: 5px 5px 15px 5px;
+      box-shadow: -1px 1px 1px black;
+    }
+
+    nav>a {
+      color: black;
+      padding: 5px;
+      margin: 3px;
+      border: 2px solid black;
+    }
+
+    a:hover {
+      color: brown;
+
+    }
+
+    #noticias {
+      background-color: white;
+      border-radius: 5px;
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+
+
+    }
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline bolder;
+    }
+
+    h2 {
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: bold underline;
+    }
+
+    .relacionados {
+      display: flex;
+      background-color: lightgrey;
+      justify-content: space-between;
+      gap: 50px;
+
+    }
+
+    .relacionados footer {
+      display: block;
+      background-color: gray;
+      padding: 10px;
+      margin: auto;
+      text-align: justify;
+    }
+
+    footer>a {
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">Sessões</a>
+      <a href="#">Sessões</a>
+      <a href="#">Sessões</a>
+      <a href="#">Sessões</a>
+      <a href="#">Sessões</a>
+    </nav>
+  </header>
+  <main>
+    <section id="noticias">
+      <article>
+        <h2>Regulamentação dos jogos no Brasil.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat quas assumenda rerum adipisci labore,
+          voluptatibus vel amet nihil alias eum quibusdam voluptas aspernatur iusto perspiciatis ea expedita fuga
+          laborum explicabo.lorem</p>
+        <aside>
+          <p>Mas especialistas discordam.</p>
+        </aside>
+        <div class="foto">
+          <img src="https://live.staticflickr.com/65535/50060212291_993759111c_b.jpg" alt="Congresso Nacional">
+          <aside>Fonte:Google</aside>
+        </div>
+
+        <h2>O que acham os especialistas.</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi amet libero unde ipsa praesentium quas
+          temporibus facilis fugiat reprehenderit consectetur eligendi minima, magnam inventore eius consequuntur nam
+          dignissimos laudantium rerum!lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem dicta
+          fuga itaque accusantium earum ut voluptate veritatis reprehenderit, iure omnis, repellendus quaerat voluptatum
+          provident assumenda explicabo veniam modi commodi cum!</p>
+        <p>
+          Dr. fulano de tal - Especialista no assunto.
+        </p>
+      </article>
+    </section>
+
+
+  </main>
+  <footer>
+    <section id="relacionados">
+      <ul class="relacionados">
+
+        <li><a href="#">Cassinos querem explorar mercado brasileiro</a></li>
+
+        <li><a href="#">Jogos que entram na regulamentação</a></li>
+
+        <li><a href="#">Assunto relacionado.</a></li>
+      </ul>
+    </section>
+
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="C:\Users\Martin\Documents\Estudos\HTML-CSS\desafios\desafio005\imagens\android.ico"
+    type="image/x-icon">
+  <title>Midias em HTML5</title>
+</head>
+
+<body>
+  <h1>Imagem dinâmica</h1>
+  <p>Tente abrir este site em varios dispositivos diferentes ou tente mudar o tamanho do seu navegador.</p>
+  <picture>
+    <source media="(max-width: 730px)"
+      srcset="C:\Users\Martin\Documents\Estudos\HTML-CSS\exercicios\ex011\imagens\foto-p.png" type="image/png">
+    <source media="(max-width: 1010px)"
+      srcset="C:\Users\Martin\Documents\Estudos\HTML-CSS\exercicios\ex011\imagens\foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem g flexivel">
+  </picture>
+
+  <h1>Reproduzindo Áudios</h1>
+  <p>vamos aprender a reproduzir audio em HTML5</p>
+  <audio preload="metadata" autoplay controls loop>
+    <source src="midia/Musiquinha.mp3" type="audio/mpeg">
+    <source src="midia/Musiquinha.ogg" type="audio/ogg">
+    <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="midia/Musiquinha.mp3">Clique aqui</a> para
+      baixar o arquivo mp3.</p>
+  </audio>
+</body>
+
+</html>
